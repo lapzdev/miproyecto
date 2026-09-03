@@ -4,7 +4,22 @@ html{
 
 body{background-color: #ff000030;}
 form *{font-size: inherit;}
-h1{
+h1,h2{
 /*   box-shadow: 1rem 1rem 1rem blue;
  */  text-shadow: .25rem .25rem #ff000030;
+}
+a:linked{
+  color: #0f0;
+}
+a:active{
+  color: #00f;
+}
+a:visited{
+  color: #f0f;
+}
+a:hover{
+  color: #f00;
+}
+label{font-weight: bold;
+  font-style: italic;
 }
