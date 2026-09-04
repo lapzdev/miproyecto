@@ -1,48 +1,120 @@
-html{
+html {
   font-size: 45px;
   margin-right: 2vw;
   margin-left: 2vw;
 }
-p{text-align: justify;}
-body{background-color: #ff000030;
-  font-family: sans-serif;
-}
-form *{font-size: inherit;}
-h1{text-align: center;}
-h1,h2{
-/*   box-shadow: 1rem 1rem 1rem blue;
- */  text-shadow: .25rem .25rem #ff000030;
+
+p {
+  text-align: justify;
 }
 
-a:linked{
+body {
+/*   background-color: #ff000030;
+ */  font-family: sans-serif;
+}
+
+/* nav {
+  background-color: orange;
+  padding: 2vw;
+  height: 50px;
+}
+ */
+nav a {
+  margin-right: 1.5vw;
+}
+nav a:linked {
+  color: red;
+}
+nav a:active {
+  color: blue;
+}
+
+
+nav a:visited {
+  color: green;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+
+
+form * {
+  font-size: inherit;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1,
+h2{
+  /*   box-shadow: 1rem 1rem 1rem blue;
+ */
+  text-shadow: .25rem .25rem #0000ff30;
+}
+
+a:linked {
   color: #0f0;
 }
-a:active{
+
+a:active {
   color: #00f;
 }
-a:visited{
+
+a:visited {
   color: #f0f;
 }
-a:hover{
+a:hover {
   color: #f00;
 }
-label{font-weight: bold;
+
+label {
+  font-weight: bold;
   font-style: italic;
 }
-input[type="text"]:focus,input[type="email"]:focus, textarea:focus{
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
   background-color: #0000f650;
 }
-input[type="text"]:valid,input[type="email"]:valid{
+
+input[type="text"]:valid,
+input[type="email"]:valid {
   background-color: #ff00f650;
 }
-input[type="text"]:invalid,input[type="email"]:invalid{
+
+input[type="text"]:invalid,
+input[type="email"]:invalid {
   background-color: #fff650;
 }
-.tabla *{font-size: 1rem;}
-.tabla th,tr,td{
-  padding:1vw;
+
+.tabla * {
+  font-size: 1rem;
+}
+
+.tabla th,
+tr,
+td {
+  padding: 1vw;
   
 }
-.tabla thead{background-color: #f66;}
-.tabla tbody{background-color: #9ff;}
-ul>li{font-size: 1rem;}
+
+.tabla thead {
+  background-color: #f66;
+}
+
+.tabla tbody {
+  background-color: #9ff;
+}
+
+ul>li {
+  font-size: 1rem;
+}
+
+tfoot th {
+  background-color: #00f;
+  color: yellow;
+}
