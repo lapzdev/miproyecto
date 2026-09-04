@@ -1,13 +1,19 @@
 html{
   font-size: 45px;
+  margin-right: 2vw;
+  margin-left: 2vw;
 }
-
-body{background-color: #ff000030;}
+p{text-align: justify;}
+body{background-color: #ff000030;
+  font-family: sans-serif;
+}
 form *{font-size: inherit;}
+h1{text-align: center;}
 h1,h2{
 /*   box-shadow: 1rem 1rem 1rem blue;
  */  text-shadow: .25rem .25rem #ff000030;
 }
+
 a:linked{
   color: #0f0;
 }
@@ -23,3 +29,20 @@ a:hover{
 label{font-weight: bold;
   font-style: italic;
 }
+input[type="text"]:focus,input[type="email"]:focus, textarea:focus{
+  background-color: #0000f650;
+}
+input[type="text"]:valid,input[type="email"]:valid{
+  background-color: #ff00f650;
+}
+input[type="text"]:invalid,input[type="email"]:invalid{
+  background-color: #fff650;
+}
+.tabla *{font-size: 1rem;}
+.tabla th,tr,td{
+  padding:1vw;
+  
+}
+.tabla thead{background-color: #f66;}
+.tabla tbody{background-color: #9ff;}
+ul>li{font-size: 1rem;}
