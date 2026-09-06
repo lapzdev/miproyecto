@@ -23,7 +23,7 @@ nav a {
   margin-right: 1.5vw;
 }
 
-nav a:linked {
+nav a:link {
   color: red;
 }
 
@@ -57,7 +57,7 @@ h1{
 }
 .dos{  text-shadow: .25rem .25rem #0000ff30;
 } 
-a:linked {
+a:link {
   color: #0f0;
 }
 

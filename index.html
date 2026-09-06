@@ -83,11 +83,14 @@
     <h2 class="dos">Visítenos 😄</h2>
     <form class="formulario-correo" action="mailto: lapzdev@gmail.com" method="get" accept-charset="utf-8">
       <label for="usuario">usuario:</label>
-      <input type="text" name="usuario" id="usuario" value="" size="18" maxlength="18" placeholder="--escriba su nombre--" pattern="" title="escriba su nombre" /><br /><br />
+            <input type="text" size="18" name="usuario" id="usuario" value="" placeholder="--nombre de usuario--" required patter="^\w+@\w+\.w+\s*\w*$"/>   <!-- ^[A-Za-zÁÉÍÓÚÑÜáéíóúñü]+@\w*\.\s*\w*\s*\w*\s*\w*\s*\w*$ -->
+            <br /><br />
+
+      
       <label for="email">email: </label>
       <input type="email" size="18" name="email" id="email" value="" placeholder="--escriba su email--" required pattern="^\w+@\w+\.\w+$" /><br /><br />
       <label for="comentarios">comentarios</label>
-      <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+      <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea><br /><br /><br />
       <input type="submit" name="" id="" value="Aceptar" />
       
     </form>
